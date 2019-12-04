@@ -92,7 +92,6 @@ namespace CRUDAlunos.Forms
         private void btnApagarAluno_Click(object sender, EventArgs e)
         {
             Aluno alunoAApagar = (Aluno)listBoxAlunos.SelectedItem;
-
             Aluno apagado = null;
 
             if (alunoAApagar != null)
